@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="BioLens wordmark">
+  <text x="60" y="215"
+        font-family="Poppins, Inter, Segoe UI, Arial, sans-serif"
+        font-size="190"
+        font-weight="700"
+        letter-spacing="-6"
+        fill="#FFFFFF">BioLens</text>
+  <rect x="68" y="248" width="360" height="6" fill="#0A9B8C"/>
+  <circle cx="452" cy="251" r="7" fill="#00D4FF"/>
+</svg>
