@@ -62,6 +62,7 @@ git clone <this-repo> my-project && cd my-project && rm -rf .git && git init
 | `05_PROOF_TRACKER.md` | Views, holds, follows, shares per post | Log weekly |
 | `06_SOP.md` | Production and publishing checklist | Fill in |
 | `07_INTRO_OUTRO.md` | BioLens intro/outro build spec, exports and QC | Build once |
+| `08_INTRO_OUTRO_PROMPTS.md` | Copy-paste Veo/Omni prompts for the intro and outro visuals | Generate |
 | `brand/` | Iris motif and wordmark vectors; rendered stingers land here | Assets |
 | `examples/` | Three finished posts from real projects | Reference only |
 | `tools/` | `new-post.js`, `validate-posts.js` | Run them |

@@ -4,6 +4,8 @@
 > `02_BRAND_SKIN.md` §5; the universal method (timings, build mechanics, export
 > rules) lives in `_SHARED/intro-outro.md`. Open this file when you build,
 > re-export or QC them.
+>
+> Generation prompts: `08_INTRO_OUTRO_PROMPTS.md`.
 
 ---
 
@@ -82,6 +84,9 @@ video; put it in the caption or bio.
 ---
 
 ## 6. Build in CapCut
+
+First generate the visual plate with the prompts in `08_INTRO_OUTRO_PROMPTS.md`,
+then build the text, chip and audio here.
 
 1. New project: **1080x1920, 30 fps**.
 2. Import `brand/iris-motif.svg` (export a 2x PNG if CapCut rejects SVG),
