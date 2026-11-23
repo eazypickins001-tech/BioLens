@@ -26,3 +26,10 @@ npm-debug.log*
 # Output
 renders/
 exports/
+
+# Allow the small BioLens stingers and audio cues (each under 5 MB)
+!brand/intro-9x16.mp4
+!brand/outro-9x16.mp4
+!brand/intro-16x9.mp4
+!brand/outro-16x9.mp4
+!brand/audio/*.wav

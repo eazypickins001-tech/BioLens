@@ -11,7 +11,7 @@
 | Video generation | Veo (primary), Omni (secondary) | 8 s clips on Veo, 10 s max on Omni; locked camera |
 | Stills (props, textures, inserts) | Flux / Midjourney / Ideogram | Edit a near-miss over regenerating |
 | Editing + text + captions | CapCut | All text, chips, rulers built here, never generated |
-| Intro and outro | CapCut / After Effects | Built once from `02_BRAND_SKIN.md`; reused unchanged |
+| Intro and outro | CapCut / After Effects | Built once from `07_INTRO_OUTRO.md`; reused unchanged |
 | Data, labels, magnification | CapCut / After Effects | Never AI-generate figures |
 | Voice | ElevenLabs, one locked voice "The Curator" | 135–150 wpm, close mic, low stability |
 | Music and sound | Licensed library | No trending audio |

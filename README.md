@@ -61,6 +61,8 @@ git clone <this-repo> my-project && cd my-project && rm -rf .git && git init
 | `04_CAPTIONS.md` | Platform captions, hashtag tiers, pinned comments | Fill in |
 | `05_PROOF_TRACKER.md` | Views, holds, follows, shares per post | Log weekly |
 | `06_SOP.md` | Production and publishing checklist | Fill in |
+| `07_INTRO_OUTRO.md` | BioLens intro/outro build spec, exports and QC | Build once |
+| `brand/` | Iris motif and wordmark vectors; rendered stingers land here | Assets |
 | `examples/` | Three finished posts from real projects | Reference only |
 | `tools/` | `new-post.js`, `validate-posts.js` | Run them |
 

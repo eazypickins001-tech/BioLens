@@ -54,7 +54,7 @@ Fingerprints
                         the key noun in lens cyan
   6 intro / sign-off:   iris opens to the wordmark; fixed sign-off line
 
-Intro (see _SHARED/intro-outro.md)
+Intro (see 07_INTRO_OUTRO.md)
   0.00–0.15 s:   black frame, silence
   0.15–0.45 s:   iris opens from a point to full frame, cyan edge glow, one hit
   0.45–0.90 s:   BioLens wordmark in Poppins Bold plus a ×40 chip snapping in
@@ -139,6 +139,9 @@ language stays identical across the catalogue.
 ---
 
 ## 5. Intro and outro: build spec
+
+> Working file: `07_INTRO_OUTRO.md`. Vector assets: `brand/iris-motif.svg` and
+> `brand/wordmark.svg`.
 
 ### Intro — 1.2 s, 1080×1920, 30 fps
 
