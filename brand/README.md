@@ -9,19 +9,20 @@ in `07_INTRO_OUTRO.md`.
 |---|---|
 | `iris-motif.svg` | Six-blade aperture; the signature motif. Import at 2x, or export a 1024 px PNG if your editor rejects SVG. |
 | `wordmark.svg` | BioLens wordmark; white display type, teal rule, cyan dot. |
+| `intro-9x16.mp4` | 1.2 s, 1080x1920, 30 fps, H.264 with audio. Place before Clip 1. |
+| `outro-9x16.mp4` | 2.4 s, 1080x1920, 30 fps, H.264 with audio. Place after Clip 4. |
 
-## To render and add
+## Optional / later
 
 | File | Spec |
 |---|---|
-| `intro-9x16.mp4` | 1.2 s, 1080x1920, 30 fps, H.264 |
-| `outro-9x16.mp4` | 2.4 s, 1080x1920, 30 fps, H.264 |
 | `intro-16x9.mp4` | optional, long-form |
 | `outro-16x9.mp4` | optional, long-form |
-| `audio/whoosh.wav` | glass focus tick plus sub-thud |
-| `audio/sting.wav` | short teal tonal sting |
-| `audio/outro-tone.wav` | one second, identical every post |
 | `intro-template/` | optional CapCut project with replaceable layers |
+
+The intro and outro MP4s carry the audio cues on one mono track (glass tick,
+sub-thud, sting, outro tone). Separate stems are optional; if you add them,
+`.gitignore` allows `brand/audio/*.wav`.
 
 ## Rules
 

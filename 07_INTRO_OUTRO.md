@@ -29,17 +29,17 @@
 |---|---|---|
 | `brand/iris-motif.svg` | Included | Six-blade aperture, teal ring, cyan rim. Import at 2x. |
 | `brand/wordmark.svg` | Included | BioLens wordmark, Poppins Bold style, white. |
-| `brand/intro-9x16.mp4` | Render in CapCut | 1.2 s, 1080x1920, H.264. Keep under 5 MB. |
-| `brand/outro-9x16.mp4` | Render in CapCut | 2.4 s, 1080x1920, H.264. Keep under 5 MB. |
-| `brand/audio/whoosh.wav` | Source or render | Glass focus tick plus low sub-thud. |
-| `brand/audio/sting.wav` | Source or render | Short teal tonal sting. |
-| `brand/audio/outro-tone.wav` | Source or render | One second, same every post. |
+| `brand/intro-9x16.mp4` | Included | 1.2 s, 1080x1920, 30 fps, H.264 with audio, 306 KB. |
+| `brand/outro-9x16.mp4` | Included | 2.4 s, 1080x1920, 30 fps, H.264 with audio, 300 KB. |
+| `brand/audio/whoosh.wav` | Mixed into the intro MP4 | Glass focus tick plus low sub-thud. |
+| `brand/audio/sting.wav` | Mixed into the intro MP4 | Short teal tonal sting. |
+| `brand/audio/outro-tone.wav` | Mixed into the outro MP4 | One second, same every post. |
 | `brand/intro-template/` | Optional | CapCut project with replaceable layers. |
 
-The repo ships the vector assets and the spec. The `.mp4` and `.wav` files are
-exports you make in CapCut and ElevenLabs. `.gitignore` allows the four named
-stinger videos and `brand/audio/*.wav` so they can be committed when ready,
-provided each file is under 5 MB. Masters stay in Drive.
+The repo ships the rendered MP4s, the vector assets and the spec. The MP4s
+carry the audio cues on one mono track. Separate stems are optional; if you add
+them, `.gitignore` allows `brand/audio/*.wav`, provided each file is under 5 MB.
+Masters stay in Drive.
 
 ---
 
@@ -156,10 +156,10 @@ version, never overwrite. Keep each committed file under 5 MB.
 
 ---
 
-## 10. What is still to render
+## 10. Rendered assets
 
-The repo contains the **spec and the vector assets**, not rendered video. The
-1.2 s intro and 2.4 s outro are exported from CapCut using `brand/iris-motif.svg`
-and `brand/wordmark.svg`, then dropped into `brand/` as the `.mp4` files above.
-If you already have exported files, add them to `brand/` and commit them; the
-`.gitignore` is configured to allow those four names and the audio cues.
+`brand/intro-9x16.mp4` (1.2 s) and `brand/outro-9x16.mp4` (2.4 s) are included
+and ready to place on the timeline: intro before Clip 1, outro after Clip 4.
+They were rendered from this spec at 1080x1920, 30 fps, H.264 with AAC audio.
+The iris motif and wordmark vectors remain in `brand/` for re-exports or edits.
+If you re-render, keep each file under 5 MB and bump the version.
